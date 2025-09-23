@@ -1,5 +1,6 @@
 # Lap-Trinh-Mobile
-*** TUẦN 1 ***
+*** TUẦN 1 *** 
+
 *1. Mong muốn và định hướng của Bạn là gì sau khi học xong môn học là gì?*
 - Mong muốn: Sau môn học, em mong muốn áp dụng kiến thức để biến sự tò mò ban đầu thành kỹ năng thực tế. 
 Cụ thể là có thể tự mình xây dựng một dự án cá nhân, ví dụ như ứng dụng điều khiển chéo giữa điện thoại và laptop.
