@@ -20,4 +20,5 @@ _2. Theo bạn, trong tương lai gần (10 năm) lập trình di động có ph
   Điều này kéo theo lập trình di động vẫn sẽ phát triển nhằm phục nhu cầu của người dùng
 
 _3. Viết một ứng dụng có UI như sau đẩy lên github_
+
 ![Cau3](Cau3.png)
