@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="my_name">Thiên đep trai</string>
+    <string name="user_location">Bình Định, Việt Nam</string>
+
+    <string name="exit">Nút quay lại</string>
+    <string name="edit">Nút chỉnh sửa</string>
+</resources>
