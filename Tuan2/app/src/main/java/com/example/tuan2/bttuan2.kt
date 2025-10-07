@@ -52,8 +52,8 @@ fun BTTuan2() {
         if (isError) {
             val n = Year_Old.toIntOrNull()
 
-            if (Name.isEmpty() || Year_Old.isEmpty() || n == null || n < 0) {
-                Text("Vui lòng nhập đầy đủ các trường", color = Color.Red)
+            if (Name.isEmpty() || Year_Old.isEmpty() || n == null || n <= 0) {
+                Text("Dữ liệu không hợp lệ", color = Color.Red)
             } else {
                 val My_String = "Bạn tên $Name, $Year_Old tuổi. Bạn"
 
