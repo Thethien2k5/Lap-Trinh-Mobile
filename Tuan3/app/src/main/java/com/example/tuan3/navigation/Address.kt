@@ -13,6 +13,7 @@ import com.example.tuan3.screens.Layout
 import com.example.tuan3.screens.Navigation
 import com.example.tuan3.screens.List_
 import com.example.tuan3.screens.Animation
+import com.example.tuan3.screens.Deatl
 import com.example.tuan3.screens.Dialog
 
 
@@ -31,5 +32,7 @@ fun Address(navController: NavHostController = rememberNavController()) {
         composable("list") { List_(navController = navController) }
         composable("animation") { Animation(navController = navController) }
         composable("dialog") { Dialog(navController = navController) }
+        composable("deatl") { Deatl(navController = navController) }
+
     }
 }

@@ -220,6 +220,33 @@ fun Home(navController: NavController) {
                     )
                 }
             }
+
+            // * * * ================= DEAIL ================= * * *
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 10.dp)
+                    .clickable { navController.navigate("deatl") },
+                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color(0xFFB0E3F4),
+                    contentColor = Color.Black
+                ),
+            ) {
+                Column(modifier = Modifier.padding(16.dp)) {
+                    Text(
+                        text = "Deatl",
+                        style = MaterialTheme.typography.bodyLarge
+                    )
+                    Text(
+                        text = "Quay Ve home",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+
         }
     }
 }
