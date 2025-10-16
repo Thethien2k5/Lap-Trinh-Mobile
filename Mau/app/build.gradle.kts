@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tuan4"
+    namespace = "com.example.mau"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.tuan4"
+        applicationId = "com.example.tuan2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -56,12 +56,4 @@ dependencies {
     // Debug tools
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-
-    //
-    implementation("com.google.code.gson:gson:2.10.1")
-
-    implementation("androidx.navigation:navigation-compose:2.7.7")
-
-    implementation("androidx.compose.material:material-icons-extended:1.5.4")
-
 }
