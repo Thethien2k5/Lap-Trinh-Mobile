@@ -23,7 +23,19 @@ import com.example.tuan4.BT1.data.SaveManager
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.tuan4.BT2.bt2
 
+@Composable
+@Preview(
+    name = "Màn hình chính",
+    showBackground = true,
+    showSystemUi = false,
+    widthDp = 365,
+    heightDp = 815
+)
+fun PreviewDSS() {
+    bt1()
+}
 @Composable
 fun bt1() {
     val saveManager = SaveManager(LocalContext.current)
